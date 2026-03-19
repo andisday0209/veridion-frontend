@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="849e88f5-8b29-48b5-bcdb-0a9fb4757e90" name="Changes" comment="" />
+    <list default="true" id="849e88f5-8b29-48b5-bcdb-0a9fb4757e90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/go.imports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CtaBanner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Faq.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Features.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hero.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HowItWorks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Marquee.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Programs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ScrollProgress.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Solutions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StatsBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Testimonials.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useScrollReveal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +52,22 @@
       <entry key="_/Users/aymhki/IdeaProjects/Kaye/veridion/frontend/veridion-frontend" value="3B9zxQ33nye7YD0MG3CXZr5AXnE" />
     </persistenceIdMap>
   </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Ask" />
+  </component>
   <component name="CopilotUserSelectedModel">
     <selectedModels>
-      <entry key="chat-panel" value="Gemini 3 Pro (Preview)" />
-      <entry key="agent-panel" value="Gemini 3 Pro (Preview)" />
+      <entry key="chat-panel" value="Claude Haiku 4.5" />
+      <entry key="agent-panel" value="Claude Haiku 4.5" />
     </selectedModels>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.5.2/bin/php" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="3B9zxQ33nye7YD0MG3CXZr5AXnE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,21 +78,26 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/aymhki/IdeaProjects/Kaye/veridion/frontend/veridion-frontend/Concept",
+    "last_opened_file_path": "/Users/aymhki/IdeaProjects/Kaye/veridion/frontend/veridion-frontend/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "npm.npm dev.executor": "Run",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/Concept" />
     </key>
   </component>
@@ -79,7 +127,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773916321664</updated>
-      <workItem from="1773916322894" duration="328000" />
+      <workItem from="1773916322894" duration="1395000" />
+      <workItem from="1773917735876" duration="723000" />
+      <workItem from="1773918483768" duration="6763000" />
     </task>
     <servers />
   </component>
