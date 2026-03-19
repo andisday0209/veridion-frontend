@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849e88f5-8b29-48b5-bcdb-0a9fb4757e90" name="Changes" comment="Configure GitHub Pages deployment">
-      <change beforePath="$PROJECT_DIR$/enable-pages.sh" beforeDir="false" />
-    </list>
+    <list default="true" id="849e88f5-8b29-48b5-bcdb-0a9fb4757e90" name="Changes" comment="Configure GitHub Pages deployment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +28,11 @@
     </selectedModels>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.5.2/bin/php" />
@@ -98,6 +101,7 @@
       <workItem from="1773916322894" duration="1395000" />
       <workItem from="1773917735876" duration="723000" />
       <workItem from="1773918483768" duration="7364000" />
+      <workItem from="1773926696597" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="Configure GitHub Pages deployment">
       <option name="closed" value="true" />
@@ -107,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773925533619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Configure GitHub Pages deployment">
+      <option name="closed" value="true" />
+      <created>1773926784708</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773926784708</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
