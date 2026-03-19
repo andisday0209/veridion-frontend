@@ -17,11 +17,11 @@ function Hero() {
                         <p className="hero__sub hero-anim-2">For companies, working professionals, IELTS and PTE learners, and schools that need a strong supplementary English partner. Live online classes. Flexible schedules. Clear progress tracking.</p>
 
                         <div className="hero__ctas hero-anim-3">
-                            <a className="btn btn-primary btn-lg" href="#contact">
+                            <a className="btn btn-primary btn-lg" href="#contact-companies">
                                 Request Corporate Demo
                             </a>
 
-                            <a className="btn btn-outline-white btn-lg" href="#contact">
+                            <a className="btn btn-outline-white btn-lg" href="#contact-students">
                                 Book a Trial Class
                             </a>
 

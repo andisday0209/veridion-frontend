@@ -1,8 +1,23 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function Contact() {
     const [activeTab, setActiveTab] = useState('companies');
     const [successMessage, setSuccessMessage] = useState(null);
+
+    useEffect(() => {
+        const handleHashChange = () => {
+            if (window.location.hash === '#contact-companies') {
+                setActiveTab('companies');
+            } else if (window.location.hash === '#contact-students') {
+                setActiveTab('students');
+            }
+        };
+
+        handleHashChange();
+
+        window.addEventListener('hashchange', handleHashChange);
+        return () => window.removeEventListener('hashchange', handleHashChange);
+    }, []);
 
     const handleSubmit = (e, type) => {
         e.preventDefault();
@@ -23,7 +38,9 @@ function Contact() {
     };
 
     return (
-        <section aria-labelledby="contact-heading" className="contact section" id="contact">
+        <section aria-labelledby="contact-heading" className="contact section" id="contact" style={{position: 'relative'}}>
+            <div id="contact-companies" style={{position: 'absolute', top: '-80px', visibility: 'hidden'}}></div>
+            <div id="contact-students" style={{position: 'absolute', top: '-80px', visibility: 'hidden'}}></div>
 
             <div className="container">
 
@@ -38,7 +55,11 @@ function Contact() {
                         aria-controls="form-companies"
                         aria-selected={activeTab === 'companies'}
                         className={`contact__tab ${activeTab === 'companies' ? 'active' : ''}`}
-                        onClick={() => { setActiveTab('companies'); setSuccessMessage(null); }}
+                        onClick={() => { 
+                            setActiveTab('companies'); 
+                            setSuccessMessage(null); 
+                            window.history.replaceState(null, null, '#contact-companies');
+                        }}
                         role="tab"
                     >
                         🏢 For Companies
@@ -48,7 +69,11 @@ function Contact() {
                         aria-controls="form-students"
                         aria-selected={activeTab === 'students'}
                         className={`contact__tab ${activeTab === 'students' ? 'active' : ''}`}
-                        onClick={() => { setActiveTab('students'); setSuccessMessage(null); }}
+                        onClick={() => { 
+                            setActiveTab('students'); 
+                            setSuccessMessage(null); 
+                            window.history.replaceState(null, null, '#contact-students');
+                        }}
                         role="tab"
                     >
                         🎯 For Students

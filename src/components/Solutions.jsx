@@ -27,7 +27,7 @@ function Solutions() {
                             <li><span aria-hidden="true" className="benefit-check">✓</span> Pilot program available — start with a demo</li>
                         </ul>
 
-                        <a aria-label="Request a corporate demo" className="btn btn-orange btn-lg" href="#contact">
+                        <a aria-label="Request a corporate demo" className="btn btn-orange btn-lg" href="#contact-companies">
                             Request a Corporate Demo →
                         </a>
 
@@ -49,7 +49,7 @@ function Solutions() {
                             <li><span aria-hidden="true" className="benefit-check">✓</span> Premium materials included — no extra cost</li>
                         </ul>
 
-                        <a aria-label="Book a trial class" className="btn btn-primary btn-lg" href="#contact">
+                        <a aria-label="Book a trial class" className="btn btn-primary btn-lg" href="#contact-students">
                             Book a Trial Class →
                         </a>
 

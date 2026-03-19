@@ -34,8 +34,8 @@ function Navigation() {
                     </ul>
 
                     <div className="nav__cta">
-                        <a className="btn btn-outline" href="#contact">Book a Trial</a>
-                        <a className="btn btn-primary" href="#contact">Corporate Demo</a>
+                        <a className="btn btn-outline" href="#contact-students">Book a Trial</a>
+                        <a className="btn btn-primary" href="#contact-companies">Corporate Demo</a>
                     </div>
 
                     <button
@@ -59,8 +59,8 @@ function Navigation() {
                 <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
 
                 <div className="nav__mobile-btns">
-                    <a className="btn btn-outline" href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Book a Trial Class</a>
-                    <a className="btn btn-primary" href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Request Corporate Demo</a>
+                    <a className="btn btn-outline" href="#contact-students" onClick={() => setIsMobileMenuOpen(false)}>Book a Trial Class</a>
+                    <a className="btn btn-primary" href="#contact-companies" onClick={() => setIsMobileMenuOpen(false)}>Request Corporate Demo</a>
                 </div>
 
             </div>

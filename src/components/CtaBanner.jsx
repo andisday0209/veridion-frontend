@@ -9,8 +9,8 @@ function CtaBanner() {
                         <p>Join teams and professionals already improving with Veridion.</p>
                     </div>
                     <div className="cta-banner__actions">
-                        <a className="btn btn-orange btn-lg" href="#contact">Book a Trial Class</a>
-                        <a className="btn btn-outline-white btn-lg" href="#contact">Corporate Demo</a>
+                        <a className="btn btn-orange btn-lg" href="#contact-students">Book a Trial Class</a>
+                        <a className="btn btn-outline-white btn-lg" href="#contact-companies">Corporate Demo</a>
                     </div>
                 </div>
             </div>
