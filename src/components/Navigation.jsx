@@ -26,7 +26,7 @@ function Navigation() {
                     </a>
 
                     <ul className="nav__links" role="list">
-                        <li><a href="#for-companies">For Companiesssssssssss</a></li>
+                        <li><a href="#for-companies">For Companies</a></li>
                         <li><a href="#for-students">For Students</a></li>
                         <li><a href="#programs">Programs</a></li>
                         <li><a href="#faq">FAQ</a></li>
