@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849e88f5-8b29-48b5-bcdb-0a9fb4757e90" name="Changes" comment="Fixed logo bug">
+    <list default="true" id="849e88f5-8b29-48b5-bcdb-0a9fb4757e90" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CtaBanner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CtaBanner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Solutions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Solutions.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,7 @@
       <workItem from="1773917735876" duration="723000" />
       <workItem from="1773918483768" duration="7364000" />
       <workItem from="1773926696597" duration="1926000" />
-      <workItem from="1773928652417" duration="328000" />
+      <workItem from="1773928652417" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="Configure GitHub Pages deployment">
       <option name="closed" value="true" />
@@ -175,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773928259035</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix correct contact us form based on button bug">
+      <option name="closed" value="true" />
+      <created>1773929006240</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1773929006240</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +187,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configure GitHub Pages deployment" />
     <MESSAGE value="Fixed logo bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed logo bug" />
+    <MESSAGE value="Fix correct contact us form based on button bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix correct contact us form based on button bug" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
